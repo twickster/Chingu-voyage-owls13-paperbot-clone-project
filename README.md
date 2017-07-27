@@ -8,5 +8,7 @@ This project has a Trello board and some google documents associated with it, se
 Team Composition:
 
 AFC74-------- Wiki Maintainer, Coder
+
 Curiouscc---- Coder
+
 Twickster---- Project Manager, Coder
