@@ -1,8 +1,10 @@
 # Chingu Voyage Owls13
 
-## Tier 1 Clone a bot splash page project.
+## Tier 1: Clone a bot splash page project.
 
-This project has a Trello board and some google documents associated with it, send a message to the project manager if you need access.
+The page to be cloned is [Paperbot](http://paperbot.ai/).
+
+This project has a Trello board and some Google documents associated with it, send a message to the project manager if you need access.
 
 ### Team Composition:
 
