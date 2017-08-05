@@ -1,14 +1,15 @@
-# Chingu-voyage-owls13-paperbot-clone-project
+# Chingu Voyage Owls13
 
-Chingu Voyage team owls 13
-Tier 1 clone a bot splash page project.
+## Tier 1: Clone a bot splash page project.
 
-This project has a Trello board and some google documents associated with it, send a message to the project manager if you need access.
+The page to be cloned is [Paperbot](http://paperbot.ai/).
 
-Team Composition:
+This project has a Trello board and some Google documents associated with it, send a message to the project manager if you need access.
 
-AFC74-------- Wiki Maintainer, Coder
+### Team Composition:
 
-Curiouscc---- Coder
-
-Twickster---- Project Manager, Coder
+| Member        | Role          |
+| ------------- | ------------- |
+| [@afc74](https://github.com/afc74)      | Wiki Maintainer, Coder |
+| [@CuriousCC](https://github.com/CuriousCC)      | Coder      |
+| [@twickster](https://github.com/twickster) | Project Manager, Coder |
