@@ -55,3 +55,35 @@
   height: 1.25em;
   max-width: 100%;
 }
+
+/* Mentions */
+.footer-mentions {
+  margin-top: 2.5em;
+}
+
+.footer-mentions .footer-algolia {
+  float: left;
+  margin-bottom: 1.25em;
+}
+
+.footer-algolia,
+.footer-copyright {
+  color: #86939e;
+  display: inline-block;
+  font-size: .875em;
+}
+
+.footer-mentions .footer-algolia img {
+  height: 1.125em;
+}
+
+.footer-mentions .footer-copyright {
+  float: right;
+}
+
+/* Disclaimer */
+.footer-slack-disclamer {
+  margin-top: 6.25em;
+  color: #86939e;
+  font-size: .9375em;
+}
