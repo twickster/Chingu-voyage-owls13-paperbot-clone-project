@@ -1,3 +1,42 @@
+/***************************
+*
+* Owl Carousel Styles
+*
+***************************/
+.home-clients h2 {
+  margin: 0 0 3.75em;
+}
+
+.owl-carousel .owl-item {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  margin: 0 auto;
+  width: auto !important;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.home-clients .logo-flat {
+  height: 36px;
+}
+
+.home-clients .logo-round {
+  height: 65px;
+}
+
+
+
+/***************************
+*
+* Footer Styles
+*
+***************************/
+
 /* Headers */
 .footer-nav-title {
   color: #4d4d4d;
