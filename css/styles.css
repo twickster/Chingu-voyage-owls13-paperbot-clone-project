@@ -1,3 +1,27 @@
+/****************************
+*
+* Header Styles
+*
+*****************************/
+.header{
+    margin:0 auto;
+    width: 400px;
+}
+.header a{
+    text-align: center;
+    color: black;
+}
+
+.header span{
+    /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";*/
+    font-size: 14px;
+}
+.header-link-text{
+    text-decoration: underline;
+    color: #10EBA3;
+}
+
+
 /***************************
 *
 * Owl Carousel Styles
