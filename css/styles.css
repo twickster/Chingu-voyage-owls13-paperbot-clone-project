@@ -4,8 +4,10 @@
 *
 *****************************/
 .header{
-    margin:0 auto;
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .header a{
     text-align: center;
@@ -14,11 +16,19 @@
 
 .header span{
     /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";*/
-    font-size: 14px;
+    font-size: 16px;
+    color: #10EBA3;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover>.header-text{
+    color: black;
+    text-decoration: none;
 }
 .header-link-text{
     text-decoration: underline;
-    color: #10EBA3;
+    
 }
 
 
