@@ -9,26 +9,14 @@
     align-items: center;
     padding: 10px;
 }
-.header a{
-    text-align: center;
-    color: black;
-}
 
 .header span{
     /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";*/
     font-size: 16px;
-    color: #37CFA2;
 }
-a{
-    text-decoration: none !important;
-}
-a:hover>.header-text{
-    color: black;
-    text-decoration: none;
-}
-.header-link-text{
+.header-link-text >a{
     text-decoration: underline;
-    
+    color: #37CFA2;
 }
 
 
