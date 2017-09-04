@@ -23,15 +23,40 @@
     padding-right: 5px;
 }
 
-/***************************
+/********************************
 *
 * Navbar Styles
 *
-***************************/
+********************************/
 
 .green-navbar{
+    background:#37CFA2 !important;
 }
 
+.nav-slack-btn{
+    height: 40px;
+}
+.navbar-right>li>a{
+    color: white !important;    
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.navbar-brand img{
+    height: 40px;
+}
+.navbar-right{
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+}
 /***************************
 *
 * Owl Carousel Styles
