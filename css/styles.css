@@ -50,13 +50,24 @@
     height: 40px;
 }
 .navbar-right{
-    display: flex;
+    display: block;
     float: right;
-    justify-content: center;
-    align-items: center;
+    justify-content: center!important;
+    align-items: center !important;
     padding: 10px;
     font-size: 16px;
 }
+.navbar-toggle{
+    background-color: transparent !important; 
+    float: right;
+    border-color:transparent !important;
+}
+.icon-bar{
+    background-color: white !important;
+}
+
+
+
 /***************************
 *
 * Owl Carousel Styles
