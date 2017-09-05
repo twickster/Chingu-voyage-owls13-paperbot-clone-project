@@ -33,29 +33,28 @@
     background:#37CFA2 !important;
 }
 
-.nav-slack-btn{
-    height: 40px;
-}
-.navbar-right>li>a{
-    color: white !important;    
-}
-
-.navbar-brand{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
-.navbar-brand img{
-    height: 40px;
-}
 .navbar-right{
     display: block;
     float: right;
     justify-content: center!important;
     align-items: center !important;
-    padding: 10px;
     font-size: 16px;
+}
+.nav-slack-btn{
+    height: 40px;
+}
+.navbar-right>li>a{
+    color: white !important;
+    line-height: 3;
+}
+
+.navbar-brand{
+    display: block;;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand img{
+    height: 40px;
 }
 .navbar-toggle{
     background-color: transparent !important; 
