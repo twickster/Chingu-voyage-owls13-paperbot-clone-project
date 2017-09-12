@@ -71,19 +71,25 @@
 ***********************************/
 .green-wrapper{
   background-color: #37CFA2;
-
+  height: 650px;
+  margin-bottom: 25px;
 }
 .green-container{
   width: 100%;
+  position: relative;
+
 }
 .txt-left{
   width: 50%;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 .slack-btn{}
 .laptop-phone{
-  width: 50%;
+  width: 40%;
   float: right;
   position: absolute;
+  right: 0;
 }
 
 /***************************
