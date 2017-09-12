@@ -30,6 +30,8 @@
 
 .green-navbar{
   background:#37CFA2 !important;
+  margin-bottom: 0;
+  border-color: transparent;
 }
 
 .navbar-right{
@@ -62,7 +64,27 @@
 .icon-bar{
   background-color: white !important;
 }
+/***********************************
+*
+* Green Section Styles
+*
+***********************************/
+.green-wrapper{
+  background-color: #37CFA2;
 
+}
+.green-container{
+  width: 100%;
+}
+.txt-left{
+  width: 50%;
+}
+.slack-btn{}
+.laptop-phone{
+  width: 50%;
+  float: right;
+  position: absolute;
+}
 
 /***************************
 *
