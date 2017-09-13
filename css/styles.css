@@ -30,19 +30,23 @@
 * Navbar Styles
 *
 ********************************/
-
+.navbar-container{
+  width: 100%;
+  
+}
 .green-navbar{
   background:#37CFA2 !important;
   margin-bottom: 0;
   border-color: transparent;
 }
-
 .navbar-right{
   display: block;
   float: right;
   justify-content: center!important;
   align-items: center !important;
-  font-size: 16px;
+  font-size: 20px;
+  padding-right: 20px;
+  
 }
 .nav-slack-btn{
   height: 40px;
@@ -55,9 +59,13 @@
   display: block;;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .navbar-brand img{
-  height: 40px;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .navbar-toggle{
   background-color: transparent !important; 
@@ -76,6 +84,7 @@
   background-color: #37CFA2;
   height: 650px;
   margin-bottom: 25px;
+  padding-top: 20px;
 }
 .green-container{
   width: 100%;
