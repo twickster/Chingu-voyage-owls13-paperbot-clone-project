@@ -82,9 +82,13 @@
 ***********************************/
 .green-wrapper{
   background-color: #37CFA2;
-  height: 650px;
+  height: 750px;
   margin-bottom: 25px;
   padding-top: 20px;
+  padding-left: 40px;
+  background-image:url(../images/green-section-bg-img.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
 }
 .green-container{
   width: 100%;
@@ -92,13 +96,30 @@
 
 }
 .txt-left{
-  width: 50%;
+  width: 45%;
   margin-left: 20px;
+  margin-right: 20px;
   padding-left: 20px;
+  padding-top: 45px; 
+  color: white;
+  
+  }
+.txt-left p{
+  opacity: .7;
+  padding:10px;
+  font-size: 30px;
 }
-.slack-btn{}
+.txt-left h1{
+  font-size: 45px;
+  padding: 10px;
+  line-height: 1.3;
+}
+.slack-btn{
+  width: 50%;
+  padding-top: 20px;
+}
 .laptop-phone{
-  width: 40%;
+  width: 50%;
   float: right;
   position: absolute;
   right: 0;
