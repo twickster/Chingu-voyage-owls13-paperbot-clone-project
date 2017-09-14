@@ -83,27 +83,21 @@
 .green-wrapper{
   background-color: #37CFA2;
   height: 750px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   padding-top: 20px;
-  padding-left: 40px;
   background-image:url(../images/green-section-bg-img.png);
   background-size: 75%;
   background-repeat: no-repeat;
-}
-.green-container{
+  position: relative; 
+  box-sizing: border-box;
   width: 100%;
-  position: relative;
-
 }
 .txt-left{
   width: 45%;
-  margin-left: 20px;
   margin-right: 20px;
-  padding-left: 20px;
   padding-top: 45px; 
   color: white;
-  
-  }
+}
 .txt-left p{
   opacity: .7;
   padding:10px;
@@ -117,6 +111,7 @@
 .slack-btn{
   width: 50%;
   padding-top: 20px;
+  padding-bottom: 50px
 }
 .laptop-phone{
   width: 50%;
@@ -124,6 +119,29 @@
   position: absolute;
   right: 0;
 }
+
+.slantedA{
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background:#37CFA2;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 200px;
+}
+.slantedA:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(4deg);
 
 /***************************
 *
