@@ -186,6 +186,63 @@
 
 /***************************
 *
+* How it works
+*
+***************************/
+.how-it-works{
+  text-align: center;
+  padding: 40px;
+  background-color: #edf1f2;
+}
+
+.how-it-works h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #4b4b48;
+}
+
+.how-it-works-list{
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  margin: 0 auto;
+  display: table;
+}
+.how-it-works-list li{
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #928c8c;
+}
+.how-it-works-list span{
+  margin-right: 16px;
+  font-size: 25px;
+  color: #61dfca;
+  vertical-align: middle;
+}
+
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background:#37CFA2;
+  box-sizing: border-box;
+  color: #fff;
+}
+.slantedB:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top left;
+}
+/***************************
+*
 * Footer Styles
 *
 ***************************/
