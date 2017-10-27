@@ -228,6 +228,7 @@
   margin-bottom: 30px;
   font-size: 30px;
   color: #4b4b48;
+  padding-top: 30px;
 }
 
 .how-it-works-list{
@@ -241,6 +242,7 @@
   margin-bottom: 16px;
   font-size: 18px;
   color: #928c8c;
+  line-height: 2;
 }
 .how-it-works-list span{
   margin-right: 16px;
@@ -253,7 +255,7 @@
   position: relative;
   width: 100%;
   height: 350px;
-  background:#F3E2E2;
+  background:inherit;
   box-sizing: border-box;
   color: #fff;
 }
@@ -262,13 +264,13 @@
   width: 100%;
   height: 100%;
   content: "";
-  background: /*inherit;*/#37CFA2;
+  background:inherit;
   z-index: -1;
   top:0;
   right: 0;
   bottom:0;
   left: 0;
-  transform-origin: top left;
+  transform-origin: top right;
   transform: skewY(2.7deg); 
 }
 /***************************
