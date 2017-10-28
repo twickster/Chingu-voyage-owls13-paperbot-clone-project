@@ -221,6 +221,7 @@
   position: relative;
   height: 350px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .how-it-works h2{
@@ -250,7 +251,6 @@
   color: #61dfca;
   vertical-align: middle;
 }
-
 .slantedC{
   position: relative;
   width: 100%;
@@ -273,6 +273,54 @@
   transform-origin: top right;
   transform: skewY(2.7deg); 
 }
+
+
+/***************************
+*
+*      Features
+*
+***************************/
+
+.text-center p, a{
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-features-container img{
+  vertical-align: middle;
+}
+.main-features-container p{
+  color: #928c8c;
+  line-height: 1.5;
+  width: 70%;
+}
+.main-features-container a{
+  color: #61dfca;
+}
+.main-features-container h3{
+  font-weight: 700 !important;
+  margin: 18px;
+}
+
+.features-row{
+  margin-bottom: 100px;
+  color: #4b4b48;
+}
+
+#iphone{
+  width: 100px;
+}
+#store-col{
+  margin-top: 30px;
+}
+
+.app-links img{
+  height: 40px;
+  vertical-align: middle;
+  
+}
+
 /***************************
 *
 * Footer Styles
