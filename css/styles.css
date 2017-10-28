@@ -299,13 +299,18 @@
   color: #61dfca;
 }
 .main-features-container h3{
-  font-weight: 700 !important;
+  font-weight: 600 !important;
+  font-size: 20px;
   margin: 18px;
+  
 }
 
 .features-row{
   margin-bottom: 100px;
   color: #4b4b48;
+}
+.features-row-last{
+  margin-bottom: 30px;
 }
 
 #iphone{
@@ -326,10 +331,33 @@
 * More Features
 *
 ***************************/
-
-
-
-
+.more-features{
+  color: #4c5155;
+  text-align: center;
+}
+.more-features h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: 36px;
+}
+.more-features a {
+  text-decoration: none;
+  color: #4c5155;
+}
+.more-features h3{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+.more-features .container .row .col-sm-6{
+  padding: 30px;
+}
+.more-features p{
+  color: #928c8c;
+  line-height: 1.5;
+  font-size: 18px;
+}
 /***************************
 *
 * Footer Styles
