@@ -219,7 +219,7 @@
   text-align: center;
   background-color: #edf1f2;
   position: relative;
-  height: 350px;
+  height: 450px;
   width: 100%;
   z-index: -1;
 }
@@ -326,6 +326,7 @@
   box-sizing: border-box;
   color: #fff;
   z-index: -1;
+  padding-top: 100px;
 }
 .SlantedD:after{
   position: absolute;
@@ -341,7 +342,9 @@
   transform-origin: top right;
   transform: skewY(2.7deg); 
 }
-
+.features-section{
+  
+}
 
 /***************************
 *
@@ -375,6 +378,39 @@
   line-height: 1.5;
   font-size: 18px;
 }
+
+/****************************
+*
+* Never Miss Section
+*
+****************************/
+
+.never-miss{
+  text-align: center;
+  background-color:#686565;
+  color: white;
+  margin: 0 auto;
+}
+
+.never-miss h2{
+  font-size: 40px;
+}
+
+.never-miss p{
+  font-size: 18px;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.never-miss-col{
+  margin-left: 25%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+
 /***************************
 *
 * Footer Styles
@@ -426,7 +462,7 @@
 
 /* Social */
 .footer-nav-share a:first-child {
-  margin-left: 0;
+  /*margin-left: 0;*/ /*when i remove this, it works ¬curiouscc*/
 }
 
 .footer-nav-share a {
