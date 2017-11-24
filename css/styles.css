@@ -159,10 +159,11 @@
 .slantedB{
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 500px;
   background:inherit;
   box-sizing: border-box;
   color: #fff;
+  padding-top: 80px;
 }
 .slantedB:after{
   position: absolute;
@@ -319,7 +320,7 @@
   height: 40px;
   vertical-align: middle; 
 }
-.SlantedD{
+.slantedD{
   position: relative;
   width: 100%;
   background: white;
@@ -328,7 +329,7 @@
   z-index: -1;
   padding-top: 100px;
 }
-.SlantedD:after{
+.slantedD:after{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -342,9 +343,30 @@
   transform-origin: top right;
   transform: skewY(2.7deg); 
 }
-.features-section{
-  
+
+.slantedE{
+  position: relative;
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 1;
+  padding-bottom: 100px;
 }
+.slantedE:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(2.7deg); 
+  }
 
 /***************************
 *
@@ -389,7 +411,6 @@
   text-align: center;
   background-color:#686565;
   color: white;
-  margin: 0 auto;
 }
 
 .never-miss h2{
@@ -406,8 +427,9 @@
 
 .never-miss-col{
   margin-left: 25%;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 
@@ -462,7 +484,7 @@
 
 /* Social */
 .footer-nav-share a:first-child {
-  /*margin-left: 0;*/ /*when i remove this, it works ¬curiouscc*/
+  /*margin-left: 0; */ /*when i remove this, it works ¬curiouscc*/
 }
 
 .footer-nav-share a {
@@ -506,3 +528,30 @@
   color: #86939e;
   font-size: .9375em;
 }
+
+/* Slanted effect*/
+
+.slantedF{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background:inherit; /*inherit the color! */
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 1;
+  padding-top: 100px;
+}
+.slantedF:after{
+  position: absolute;
+  width: 100%;
+ /* height: 100%; */
+  content: "";
+  background: #FFFFFF; /*specify color! */
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(2.7deg); 
+  }
