@@ -92,6 +92,30 @@
   box-sizing: border-box;
   width: 100%;
 }
+
+.slantedA{
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background:#37CFA2;
+  box-sizing: border-box;
+  color: #fff;
+/*  margin-bottom: 200px; */
+}
+.slantedA:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(2.7deg); 
+}
 .txt-left{
   width: 45%;
   margin-right: 20px;
@@ -120,28 +144,7 @@
   right: 0;
 }
 
-.slantedA{
-  position: relative;
-  width: 100%;
-  height: 750px;
-  background:#37CFA2;
-  box-sizing: border-box;
-  color: #fff;
-  margin-bottom: 200px;
-}
-.slantedA:after{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background: inherit;
-  z-index: -1;
-  top:0;
-  right: 0;
-  bottom:0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(4deg);
+
 
 /***************************
 *
@@ -149,6 +152,33 @@
 *
 ***************************/
 
+.home-clients{
+  
+}
+
+.slantedB{
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background:inherit;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 50px;
+}
+.slantedB:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background:inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(2.7deg); 
+}
 .home-clients h2 {
   margin: 0 0 3.75em;
 }
@@ -168,13 +198,240 @@
 }
 
 .home-clients .logo-flat {
-  height: 36px;
+  height: 40px;
 }
 
 .home-clients .logo-round {
   height: 65px;
 }
 
+.text-center{
+  text-align: center;
+  font-size: 36px;
+  color: #4c5155;
+}
+
+/***************************
+*
+* How it works
+*
+***************************/
+.how-it-works{
+  text-align: center;
+  background-color: #edf1f2;
+  position: relative;
+  height: 450px;
+  width: 100%;
+  z-index: -1;
+}
+
+.how-it-works h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #4b4b48;
+  padding-top: 30px;
+}
+
+.how-it-works-list{
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  margin: 0 auto;
+  display: table;
+}
+.how-it-works-list li{
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #928c8c;
+  line-height: 2;
+}
+.how-it-works-list span{
+  margin-right: 16px;
+  font-size: 25px;
+  color: #61dfca;
+  vertical-align: middle;
+}
+.slantedC{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background:inherit;
+  box-sizing: border-box;
+  color: #fff;
+}
+.slantedC:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background:inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(2.7deg); 
+}
+
+
+/***************************
+*
+*      Features
+*
+***************************/
+
+.text-center p, a{
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+}
+.main-features-container img{
+  vertical-align: middle;
+}
+.main-features-container p{
+  color: #928c8c;
+  line-height: 1.5;
+  width: 70%;
+}
+.main-features-container a{
+  color: #61dfca;
+}
+.main-features-container h3{
+  font-weight: 600 !important;
+  font-size: 20px;
+  margin: 18px;
+}
+.features-row{
+  margin-bottom: 100px;
+  color: #4b4b48;
+}
+.features-row-last{
+  margin-bottom: 30px;
+}
+#iphone{
+  width: 100px;
+}
+#store-col{
+  margin-top: 30px;
+}
+.app-links img{
+  height: 40px;
+  vertical-align: middle; 
+}
+.slantedD{
+  position: relative;
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: -1;
+  padding-top: 100px;
+}
+.slantedD:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: white;
+  z-index: -2;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(2.7deg); 
+}
+
+.slantedE{
+  position: relative;
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+.slantedE:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(2.7deg); 
+  }
+
+/***************************
+*
+* More Features
+*
+***************************/
+.more-features{
+  color: #4c5155;
+  text-align: center; 
+}
+.more-features h2{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #4c5155;
+  margin-top: 100px;
+}
+.more-features a {
+  text-decoration: none;
+  color: #4c5155;
+}
+.more-features h3{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+.more-features .container .row .col-sm-6{
+  padding: 30px;
+}
+.more-features p{
+  color: #928c8c;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/****************************
+*
+* Never Miss Section
+*
+****************************/
+
+.never-miss{
+  text-align: center;
+  background-color:#686565;
+  color: white;
+}
+
+.never-miss h2{
+  font-size: 40px;
+}
+
+.never-miss p{
+  font-size: 18px;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.never-miss-col{
+  margin-left: 25%;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
 
 
 /***************************
@@ -228,7 +485,7 @@
 
 /* Social */
 .footer-nav-share a:first-child {
-  margin-left: 0;
+  /*margin-left: 0; */ /*when i remove this, it works ¬curiouscc*/
 }
 
 .footer-nav-share a {
@@ -272,3 +529,30 @@
   color: #86939e;
   font-size: .9375em;
 }
+
+/* Slanted effect*/
+
+.slantedF{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background:inherit; /*inherit the color! */
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 1;
+  padding-top: 100px;
+}
+.slantedF:after{
+  position: absolute;
+  width: 100%;
+ /* height: 100%; */
+  content: "";
+  background: #FFFFFF; /*specify color! */
+  z-index: -1;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(2.7deg); 
+  }
